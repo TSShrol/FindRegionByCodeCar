@@ -10,6 +10,6 @@ namespace DataAccess.Entities
     {
         public int Id { get; set; }
         public string NameRegion { get; set; }
-        IEnumerable<CarNumberCode> CarNumberCodes { get; set; };
+        IEnumerable<CarNumberCode> CarNumberCodes { get; set; }
     }
 }
