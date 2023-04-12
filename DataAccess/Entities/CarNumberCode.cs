@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Entities
 {
-    class CarNumberCode
+    public class CarNumberCode
     {
         public int Id { get; set; }
         public string Code { get; set; }
